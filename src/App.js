@@ -1,5 +1,5 @@
 
-import Home from "./Components/Routing/Home";
+import Director from "./Components/Routing/Director";
 
 const App=()=> {
   const date = new date().toLocalTimeString();
@@ -32,7 +32,7 @@ const App=()=> {
       <Counter/> */}
       {/* <Director/> */}
       {/* <Tesco/> */}
-      <Home/>
+      <Director/>
 
       <Main/>
 
