@@ -1,11 +1,11 @@
-import {useParams} from 'react-router-dom';
-// npm install --save dev react-router-dom
+import { useParams } from "react-router-dom";
 
 const User = () => {
     
-    const {id} = useParams(); 
+    const { id , name } = useParams();
 
-    return( <p>The value from the URL is: {id}</p> )
+
+    return( <p>The value from the URL is:{id} and the name is {name}</p> )
 
 }
 

@@ -1,45 +1,33 @@
 
-import Director from "./Components/Routing/Director";
+import DataRequestExample from "./Components/Data-Request/DataRequest-Axios";
 
-const App=()=> {
-  const date = new date().toLocalTimeString();
+const App =()=> {
+  const date = new Date().toLocaleTimeString();
   return (
     <div className="container">
-      
-      
-      <h1>APP says the time is {date}</h1>
+
+      <h1>APPP says the time is {date}</h1>
       {/* <MyFirstComponent/> */}
       {/* <MySecondComponent/> */}
-      {/* <Standard/> */}
-      {/* <MyFooter/> */}
+      {/* <MyMain/> */}
       {/* <Parent/> */}
-      {/* <PropWithDifferentTypes/> */}
+      {/* <PropsWithDifferentTypes/> */}
       {/* <FirstContactCard/> */}
-      {/* <EndContactCard/> */}
-      {/* <Blog/> */}
-      {/* <User/> */}
-      {/* <Strap/> */}
+      {/* <Album/> */}
       {/* <ClassClock/> */}
-      {/* <ClockFunctional/> */}
       {/* <DifferentStates/> */}
       {/* <Counter/> */}
       {/* <UncontrolledInput/> */}
       {/* <ControlledInput/> */}
-      {/* <LetsSearch/> */}
-      {/* <HomePage/> */}
-      {/* <SearchableList/> */}
-      {/* <Clock/>
-      <Counter/> */}
+      {/* <SearchList/> */}
+      {/* <FunctionClock/> */}
       {/* <Director/> */}
-      {/* <Tesco/> */}
-      <Director/>
-
-      <Main/>
+      <DataRequestExample/>
 
 
+     
     </div>
   );
 }
 
-//ONLY ONE DEFAULT EXPORT PER FILE
 export default App;
