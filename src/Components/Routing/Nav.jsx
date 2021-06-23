@@ -7,6 +7,7 @@ const Nav = () =>{
             <Link to="/" className="btn btn-danger">Home</Link>
             <Link to="/about" className="btn btn-outline-success">About</Link>
             <Link to="/shop" className="btn btn-outline-info">Product</Link>
+            <Link to="/user" className="btn btn-outline-info-warning">user</Link>
         </>
     )
 }

@@ -11,13 +11,11 @@ const Director=()=>{
         <>
         <h1>Welcome to my website </h1>
             <Router>
+            <Nav/>
                 <Switch>
-                    <Route path="/" exact>
-                        <Home/>
-                    </Route>
-                    <Route path="/nav" exact>
-                        <Nav/>
-                    </Route>
+                    <Route path="/" exact component={Home}/>
+                  { /* <Route path="/nav" component={Nav}/>*/}
+                  
                     <Route path="/about">
                         <About/>
                     </Route>
