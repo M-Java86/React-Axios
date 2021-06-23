@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import Home from "./Components/Routing/Home";
+
+const App=()=> {
+  const date = new date().toLocalTimeString();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      
+      
+      <h1>APP says the time is {date}</h1>
+      {/* <MyFirstComponent/> */}
+      {/* <MySecondComponent/> */}
+      {/* <Standard/> */}
+      {/* <MyFooter/> */}
+      {/* <Parent/> */}
+      {/* <PropWithDifferentTypes/> */}
+      {/* <FirstContactCard/> */}
+      {/* <EndContactCard/> */}
+      {/* <Blog/> */}
+      {/* <User/> */}
+      {/* <Strap/> */}
+      {/* <ClassClock/> */}
+      {/* <ClockFunctional/> */}
+      {/* <DifferentStates/> */}
+      {/* <Counter/> */}
+      {/* <UncontrolledInput/> */}
+      {/* <ControlledInput/> */}
+      {/* <LetsSearch/> */}
+      {/* <HomePage/> */}
+      {/* <SearchableList/> */}
+      {/* <Clock/>
+      <Counter/> */}
+      {/* <Director/> */}
+      {/* <Tesco/> */}
+      <Home/>
+
+      <Main/>
+
+
     </div>
   );
 }
 
+//ONLY ONE DEFAULT EXPORT PER FILE
 export default App;
